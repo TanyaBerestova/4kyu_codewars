@@ -1,3 +1,4 @@
+<?php
 function determinant(array $matrix): int {
   $count = count($matrix[0]);
   if ($count == 1){
@@ -32,3 +33,4 @@ function get_minor($matrix, $r, $c){
     }
     return array_values($new_matrix);
 }
+?>
