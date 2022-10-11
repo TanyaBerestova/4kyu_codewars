@@ -1,3 +1,4 @@
+<?php
 function snail($matrix){
   $arr = array();
   while (true){
@@ -30,3 +31,4 @@ function rotation_m($matrix){
     }
     return $new_matrix;
 }
+?>
