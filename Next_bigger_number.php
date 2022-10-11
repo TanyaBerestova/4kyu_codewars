@@ -1,3 +1,4 @@
+<?php
 function nextBigger($n) {
  $arr = str_split((string) $n, 1);
  $arr1 = $arr; 
@@ -27,3 +28,4 @@ function nextBigger($n) {
  $str = implode('', array_slice($arr, 0, $ind)).$elem.implode('',$arr1);
  return (int) $str;
 }
+?>
